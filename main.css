@@ -181,14 +181,14 @@ padding:8px;
    width: 100%;
    bottom: 0;
    right: 0;
-    /* height: 15vh; */
+    /* height: 10vh; */
 }
 .foott{
     font-size: 16px;
     margin: 20px;
 }
 .foot-ter{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
