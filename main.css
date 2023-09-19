@@ -44,22 +44,27 @@ a{
     font-size: 22px;
 }
 .google{
+    margin-top: 7%;
     width: 100%;
 }
-
+.goole-G{
+    width:50%;
+}
 .goog-page{
     width:600px;
     text-align: center;
     height:500px;
     margin: auto;
 }
+.links{
+    font-size: 12px;
+    color: rgb(24, 24, 248);
+}
 /* .googs{
     font-size: 100px;
     margin-bottom: 40px;
 } */
-.goole-G{
-    width:50%;
-    color: rgb(0, 42, 255);
+/* 
 }
 .goole-o{
     color: rgb(197, 31, 31);
@@ -69,7 +74,7 @@ a{
 }
 .goole-L{
     color: rgb(70, 167, 22);
-}
+} */
 .inputty::placeholder{
     font-size: 16px;
 }
@@ -135,6 +140,26 @@ a{
     'GRAD' 0,
     'opsz' 24
 }
+.btns{
+    margin-top: 20px;
+   
+}
+.btnn{
+    width:20%;
+    padding:8px;
+    border: none;
+   
+}
+.btn-1{
+border: none;
+padding:8px;
+}
+.foot{
+    display: flex;
+    gap:6px;
+    margin-top: 6px;
+    justify-content: center;
+}
 
 @media screen and (max-width:480px){
     .goog-page{
@@ -155,5 +180,16 @@ a{
     }
     nav{
         gap:15px;
+    }
+    .links{
+        font-size: 10px;
+        color: rgb(24, 24, 248);
+    }
+    
+    .btn-1{
+        font-size: 7px;
+    }
+    .btnn{
+        font-size: 7px;
     }
     }
