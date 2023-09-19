@@ -44,8 +44,11 @@ a{
     font-size: 22px;
 }
 .google{
-    margin-top: 8%;
-    display: grid;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
 }
