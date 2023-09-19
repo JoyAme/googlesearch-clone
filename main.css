@@ -53,11 +53,12 @@ a{
     height:500px;
     margin: auto;
 }
-.googs{
+/* .googs{
     font-size: 100px;
     margin-bottom: 40px;
-}
+} */
 .goole-G{
+    width:50%;
     color: rgb(0, 42, 255);
 }
 .goole-o{
@@ -126,4 +127,11 @@ a{
     border: none;
     height: 35px;
     width: 37rem;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
 }
