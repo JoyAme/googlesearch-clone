@@ -135,3 +135,11 @@ a{
     'GRAD' 0,
     'opsz' 24
 }
+
+@media screen and (max-width:480px){
+    .goog-page{
+        width: 400px;
+       
+    }
+       
+    }
