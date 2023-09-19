@@ -141,21 +141,33 @@ a{
     'opsz' 24
 }
 .btns{
-    margin-top: 20px;
+    margin-top: 25px;
    display: flex;
    gap: 8px;
+  
    justify-content: center;
    align-items: center;
 }
+.btnn:hover{
+    border: 1px solid rgb(137, 136, 136);
+}
+.btn-1:hover{
+    border: 1px solid rgb(137, 136, 136);
+}
 .btnn{
+    cursor: pointer;
     width:20%;
     padding:8px;
     border: none;
    
 }
 .btn-1{
+    cursor: pointer;
 border: none;
 padding:8px;
+}
+.niaja{
+    padding: 20px;
 }
 .foot{
     display: flex;
@@ -163,13 +175,65 @@ padding:8px;
     margin-top: 6px;
     justify-content: center;
 }
+.bottom{
+    background-color:rgb(222, 221, 221);
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   right: 0;
+    height: 15vh;
+}
+.foott{
+    font-size: 16px;
+    padding: 20px;
+}
+.foot-ter{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carb{
+    font-size: 18px;
+}
+.carbon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carbonn{
+    width:40px;
+}
 
 @media screen and (max-width:480px){
     .goog-page{
         width: 320px;
        
     }
+    .niaja{
+        padding: 8px;
+    }
     .inputty::placeholder{
+        font-size: 12px;
+    }
+    .carbon1{
+        display: grid;
+    }
+    .foott{
+        font-size: 12px;
+        padding:8px;
+    }
+    .advert{
+        display: grid;
+
+    }
+    .foot-ter{
+        align-items: flex-end;
+    }
+    .carbonn{
+        width:20px;
+    }
+    .carb{
         font-size: 12px;
     }
     .fem{
@@ -194,5 +258,9 @@ padding:8px;
     }
     .btnn{
         font-size: 7px;
+    }
+    .bottom{
+       
+        height: 20vh;
     }
     }
