@@ -141,5 +141,16 @@ a{
         width: 320px;
        
     }
-       
+    .inputty::placeholder{
+        font-size: 12px;
+    }
+    .fem{
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    } 
+    .list{
+        font-size: 16px;
+    }
     }
