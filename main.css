@@ -145,12 +145,15 @@ a{
         font-size: 12px;
     }
     .fem{
-        width:40px;
-        height: 40px;
+        width:30px;
+        height: 30px;
         border-radius: 50%;
         object-fit: cover;
     } 
     .list{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    nav{
+        gap:15px;
     }
     }
