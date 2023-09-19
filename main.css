@@ -221,14 +221,14 @@ padding:8px;
     }
     .foott{
         font-size: 12px;
-        padding:8px;
+       margin: 8px;
     }
     .advert{
         display: grid;
 
     }
     .foot-ter{
-        align-items: flex-end;
+        /* align-items: flex-end; */
     }
     .carbonn{
         width:20px;
