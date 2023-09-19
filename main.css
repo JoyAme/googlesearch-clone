@@ -71,7 +71,7 @@ a{
     color: rgb(70, 167, 22);
 }
 .inputty::placeholder{
-    font-size: 20px;
+    font-size: 16px;
 }
 .list{
     font-size: 19px;
@@ -80,14 +80,14 @@ a{
     margin-right: 10px;
     cursor: pointer;
     color:rgb(107, 106, 104);
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 10px;
 }
 .imaggy{
     display: flex;
 }
 .micro{
-    width: 34px;
+    width: 25px;
     margin-left: 7px;
     margin-right: 6px;
     cursor: pointer;
@@ -95,7 +95,7 @@ a{
 }
 .cam{
     
-  width: 30px;
+  width: 25px;
     cursor: pointer;
     align-items: center;
 }
